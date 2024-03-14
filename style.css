@@ -53,10 +53,26 @@ main > p {
 }
 
 main > img {
-  height: 20dvh;
-  width: 50dvw;
+  height: 30dvh;
+  /* width: 50dvw; */
   background-color: darkgrey;
   object-fit: cover;
+}
+
+nav {
+  margin: 1dvh;
+}
+
+nav > a {
+  text-decoration: none;
+  background-color: var(--tea-rose-red);
+  color: white;
+  padding: 0.25em;
+  border-radius: 0.5em;
+}
+
+nav > a:hover {
+  background-color: var(--light-orange);
 }
 
 footer {
@@ -64,4 +80,8 @@ footer {
   height: 5dvh;
   width: 100dvw;
   text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
